@@ -5,6 +5,8 @@ pipeline {
         DOCKER_HUB_USER = 'teyy7799'
         IMAGE_NAME = '101-app'
         DOCKER_HUB_CREDS = 'docker-hub-credentials'
+        PUPPETEER_SKIP_DOWNLOAD = 'true'
+        PUPPETEER_EXECUTABLE_PATH = '/usr/bin/chromium'
     }
 
     stages {
