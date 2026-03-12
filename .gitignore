@@ -5,3 +5,8 @@ npm-debug.log
 yarn.lock
 todo.db
 yarn-error.log
+.env
+.git
+.gitignore
+jenkinsfile
+Dockerfile
